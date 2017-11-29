@@ -7,10 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b095fd94-30f9-4b0d-9aed-53949c539c98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/builtinObjects.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/homepage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/my-footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/my-header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JSP_Intro_war_exploded/expression-test.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Intro_war_exploded/expression-test.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JSP_Intro_war_exploded/helloworld.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Intro_war_exploded/helloworld.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +55,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtinObjects.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="builtinObjects.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/builtinObjects.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/my-header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/my-footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/homepage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -71,6 +101,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -98,6 +129,9 @@
         <option value="$PROJECT_DIR$/web/expression-test.jsp" />
         <option value="$PROJECT_DIR$/web/fun-test.jsp" />
         <option value="$PROJECT_DIR$/web/builtinObjects.jsp" />
+        <option value="$PROJECT_DIR$/web/my-header.html" />
+        <option value="$PROJECT_DIR$/web/my-footer.jsp" />
+        <option value="$PROJECT_DIR$/web/homepage.jsp" />
       </list>
     </option>
   </component>
@@ -183,6 +217,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Opsu" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -201,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.builtinObjects.jsp">
+  <component name="RunManager" selected="Tomcat Server.homepage.jsp">
     <configuration name="Tomcat 8.5.23" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="JSP Intro:war exploded">
@@ -392,8 +427,79 @@
         </option>
       </method>
     </configuration>
-    <configuration name="expression-test.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/expression-test.jsp" />
     <configuration name="fun-test.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/fun-test.jsp" />
+    <configuration name="homepage.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/homepage.jsp" />
+      <deployment>
+        <artifact name="JSP Intro:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="homepage_jsp_JSP_Intro" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8029" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JSP Intro:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="jsp-declaration.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/jsp-declaration.jsp" />
     <configuration name="jsp-scriptlet.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp-scriptlet.jsp" />
@@ -467,22 +573,23 @@
         </option>
       </method>
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.5.23" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.expression-test.jsp" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsp-scriptlet.jsp" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.jsp-scriptlet.jsp" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsp-declaration.jsp" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.fun-test.jsp" />
-      <item index="6" class="java.lang.String" itemvalue="Tomcat Server.builtinObjects.jsp" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsp-scriptlet.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.jsp-scriptlet.jsp" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jsp-declaration.jsp" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.fun-test.jsp" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.builtinObjects.jsp" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.homepage.jsp" />
+      <item index="7" class="java.lang.String" itemvalue="Tomcat Server.homepage.jsp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.builtinObjects.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.fun-test.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsp-declaration.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jsp-scriptlet.jsp" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.expression-test.jsp" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.homepage.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.builtinObjects.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fun-test.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jsp-declaration.jsp" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsp-scriptlet.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +606,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511981235013</updated>
-      <workItem from="1511981236879" duration="3351000" />
+      <workItem from="1511981236879" duration="3944000" />
     </task>
     <task id="LOCAL-00001" summary="More exercise JSP intro exercises. Will add one by one in the future.">
       <created>1511984845489</created>
@@ -508,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511984845489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Using Built in server object &quot;Request&quot;">
+      <created>1511985602474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511985602474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3351000" />
+    <option name="totallyTimeSpent" value="3944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
@@ -559,7 +673,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="More exercise JSP intro exercises. Will add one by one in the future." />
-    <option name="LAST_COMMIT_MESSAGE" value="More exercise JSP intro exercises. Will add one by one in the future." />
+    <MESSAGE value="Using Built in server object &quot;Request&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Built in server object &quot;Request&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -629,6 +744,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/my-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/my-footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
