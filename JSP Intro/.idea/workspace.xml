@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b095fd94-30f9-4b0d-9aed-53949c539c98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/homepage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/my-footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/my-header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -606,7 +603,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511981235013</updated>
-      <workItem from="1511981236879" duration="3944000" />
+      <workItem from="1511981236879" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="More exercise JSP intro exercises. Will add one by one in the future.">
       <created>1511984845489</created>
@@ -622,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511985602474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Using jspinclude to create a unique homepage">
+      <created>1511986194623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511986194623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3944000" />
+    <option name="totallyTimeSpent" value="3985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
@@ -674,7 +678,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="More exercise JSP intro exercises. Will add one by one in the future." />
     <MESSAGE value="Using Built in server object &quot;Request&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Built in server object &quot;Request&quot;" />
+    <MESSAGE value="Using jspinclude to create a unique homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using jspinclude to create a unique homepage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
