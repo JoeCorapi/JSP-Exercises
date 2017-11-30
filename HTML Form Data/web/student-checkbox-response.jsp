@@ -15,12 +15,14 @@
 The student is confirmed: ${param.firstName} ${param.lastName}
 <br><br>
 The student's favorite programming languages are:
-    <%
-        String[] langs = request.getParameterValues("favoriteLanguage");
-        for (String s :langs) {
+<%
+    String[] langs = request.getParameterValues("favoriteLanguage");
+    if (langs != null) {
+        for (String s : langs) {
             out.println("<li>" + s + "</li>");
         }
-    %>
+    }
+%>
 
 </body>
 </html>

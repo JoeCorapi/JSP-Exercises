@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efa60c58-acf9-4462-b6f1-71f3abcc86c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/student-checkbox-response.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/student-form.html" afterPath="$PROJECT_DIR$/web/student-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTML_Form_Data_war_exploded/student-form.html" afterPath="$PROJECT_DIR$/out/artifacts/HTML_Form_Data_war_exploded/student-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/student-checkbox-response.jsp" afterPath="$PROJECT_DIR$/web/student-checkbox-response.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="student-checkbox-response.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/student-checkbox-response.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -331,7 +331,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512057744066</updated>
-      <workItem from="1512057747135" duration="4910000" />
+      <workItem from="1512057747135" duration="5687000" />
     </task>
     <task id="LOCAL-00001" summary="JSP using html dropdown menus">
       <created>1512062639751</created>
@@ -347,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512064313123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uses JSP scriptlets to iterate through an array of input.">
+      <created>1512065363085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512065363085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4910000" />
+    <option name="totallyTimeSpent" value="5687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
@@ -399,7 +406,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JSP using html dropdown menus" />
     <MESSAGE value="Now using HTML radio buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now using HTML radio buttons" />
+    <MESSAGE value="Uses JSP scriptlets to iterate through an array of input." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uses JSP scriptlets to iterate through an array of input." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -440,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/student-checkbox-response.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>
