@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.net.URLEncoder" %><%--
   Created by IntelliJ IDEA.
   User: Ubnik
   Date: 11/30/2017
@@ -11,7 +11,10 @@
 
 
 <%
-    Cookie cookie = new Cookie("favLang", request.getParameter("language"));
+    String favLang = request.getParameter("language") ;
+    favLang = URLEncoder.encode(favLang, "UTF-8");
+
+    Cookie cookie = new Cookie("favLang", favLang);
     cookie.setMaxAge(60);
     response.addCookie(cookie);
 %>

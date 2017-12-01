@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.net.URLDecoder" %><%--
   Created by IntelliJ IDEA.
   User: Ubnik
   Date: 11/30/2017
@@ -18,7 +18,8 @@
     if (cookies != null) {
         for (Cookie temp : cookies) {
             if (temp.getName().equals("favLang")) {
-                favLang = temp.getValue();
+                favLang = URLDecoder.decode(temp.getValue(), "UTF-8");
+                break;
             }
         }
     }
