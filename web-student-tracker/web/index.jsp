@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="/TestServlet">Student Directory Table</a>
+  <a href="/TestServlet">Servlet Test</a>
+  <hr>
+  <a href="/StudentControllerServlet"> Student Directory Table</a>
   </body>
 </html>
