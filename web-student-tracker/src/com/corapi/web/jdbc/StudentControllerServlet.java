@@ -53,12 +53,16 @@ public class StudentControllerServlet extends HttpServlet {
                     addStudent(request, response);
                     break;
 
+                case "LOAD":
+                    loadStudent(request, response);
+                    break;
+
                 case "UPDATE":
-                    addStudent(request, response);
+                    updateStudent(request, response);
                     break;
 
                 case "DELETE":
-                    addStudent(request, response);
+                    deleteStudent(request, response);
                     break;
 
                 default:
@@ -67,6 +71,39 @@ public class StudentControllerServlet extends HttpServlet {
         } catch (Exception e) {
             throw new ServletException(e);
         }
+    }
+
+    private void updateStudent(HttpServletRequest request, HttpServletResponse response) throws Exception{
+
+        int id = Integer.parseInt(request.getParameter("studentId"));
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
+        String email = request.getParameter("email");
+
+        Student theStudent = new Student(id, firstName, lastName, email);
+
+        studentDbUtil.updateStudent(theStudent);
+
+        listStudents(request,response);
+    }
+
+    private void deleteStudent(HttpServletRequest request, HttpServletResponse response) throws Exception{
+
+        studentDbUtil.deleteStudent(request.getParameter("studentId"));
+
+        listStudents(request,response);
+    }
+
+    private void loadStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+        String studentId = request.getParameter("studentId");
+
+        Student student = studentDbUtil.getStudent(studentId);
+
+        request.setAttribute("THE_STUDENT", student);
+
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/update-student-form.jsp");
+        dispatcher.forward(request, response);
     }
 
     private void addStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
