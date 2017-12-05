@@ -2,10 +2,7 @@ package com.corapi.web.jdbc;
 
 import javax.sql.DataSource;
 import javax.xml.crypto.Data;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,5 +44,26 @@ public class StudentDbUtil {
         }
 
         return students;
+    }
+
+    public void addStudent(Student student) throws Exception {
+
+        String sql = "INSERT INTO student "
+                +   "(first_name, last_name, email)"
+                + "values (?, ?, ?)";
+
+        try(
+                Connection myConnection = dataSource.getConnection();
+                PreparedStatement statement = myConnection.prepareStatement(sql);
+                ) {
+
+            statement.setString(1,student.getFirstName());
+            statement.setString(2,student.getLastName());
+            statement.setString(3,student.getEmail());
+
+            statement.execute();
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
     }
 }

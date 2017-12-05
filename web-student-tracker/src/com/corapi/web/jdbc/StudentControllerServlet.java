@@ -16,7 +16,7 @@ public class StudentControllerServlet extends HttpServlet {
 
     private StudentDbUtil studentDbUtil;
 
-    @Resource(name="jdbc/web_student_tracker")
+    @Resource(name = "jdbc/web_student_tracker")
     private DataSource dataSource;
 
     @Override
@@ -26,8 +26,7 @@ public class StudentControllerServlet extends HttpServlet {
         // create out student db util and pass in the conn pool / datasource
         try {
             studentDbUtil = new StudentDbUtil(dataSource);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             throw new ServletException(e);
         }
 
@@ -35,16 +34,60 @@ public class StudentControllerServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        // list the students in MVC fashion
         try {
-            listStudents(request, response);
+            //read the "command" parameter
+            String theCommand = request.getParameter("command");
+
+            if (theCommand == null) {
+                theCommand = "LIST";
+            }
+
+            // route to the appropriate method
+            switch (theCommand) {
+
+                case "LIST":
+                    listStudents(request, response);
+                    break;
+
+                case "ADD":
+                    addStudent(request, response);
+                    break;
+
+                case "UPDATE":
+                    addStudent(request, response);
+                    break;
+
+                case "DELETE":
+                    addStudent(request, response);
+                    break;
+
+                default:
+                    listStudents(request, response);
+            }
         } catch (Exception e) {
             throw new ServletException(e);
         }
     }
 
+    private void addStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+        //read student form data
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
+        String email = request.getParameter("email");
+
+        // create new Student
+        Student student = new Student(firstName, lastName, email);
+
+        // add student to the DB
+        studentDbUtil.addStudent(student);
+
+        //return to the index
+        listStudents(request, response);
+    }
+
     private void listStudents(HttpServletRequest request, HttpServletResponse response)
-        throws Exception {
+            throws Exception {
 
         // get students form db util
         List<Student> students = studentDbUtil.getStudents();
